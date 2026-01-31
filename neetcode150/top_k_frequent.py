@@ -15,9 +15,7 @@ class Solution():
         pair_list = sorted(pair_list, key=lambda x: x[0])
         vals = []
         for id in range(k):
-            # print(id, vals)
             if id < k:
-                # print(id, k)
                 vals.append(pair_list[-1-id][1])
         return vals
     def topKFrequent(self, nums: list, k: int) -> list[int]:
