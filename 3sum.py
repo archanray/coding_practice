@@ -1,4 +1,7 @@
 class Solution:
+    """
+    sum to 0
+    """
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort() # O(n log n)
         res = []
